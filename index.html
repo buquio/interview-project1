@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head class="header">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A web page</title>
+  <!-- site style links -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+  <!-- ion icons  -->
+  <!-- check <script> link below -->
+
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="header">
+      <h3 class="web-title">A Web Page</h3>
+      <div class="header-flex">
+        <div>
+          <a href="#" class="header-item">
+            <ion-icon name="arrow-undo-outline"></ion-icon>
+          </a>
+          <a href="#" class="header-item">
+            <ion-icon name="arrow-redo-outline"></ion-icon>
+          </a>
+          <a href="#" class="header-item">
+            <ion-icon name="close-outline"></ion-icon>
+          </a>
+          <a href="#" class="header-item">
+            <ion-icon name="home-outline"></ion-icon>
+          </a>
+        </div>
+        <div>
+          <input class="header-item longer-item" type="text" name=""
+            placeholder="https://sefith.com/user-profile/experience" />
+        </div>
+        <div>
+          <input class="header-item" type="text" name="" placeholder="" />
+        </div>
+        <div>
+          <!--header flex-->
+    </header>
+
+
+    <!-- nav  -->
+    <div class="nav">
+      <!-- <div class="nav-list"> -->
+      <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="" class="nav-link current">About Us</a></li>
+      <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
+      <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+      <!-- </div> -->
+
+
+      <!-- <div class="nav-item">                 -->
+      <ion-icon class="nav-item" name="search-outline"></ion-icon>
+      <input class="nav-item" type="search" name="topsearch" value="" placeholder="search" />
+      <!-- </div>  -->
+      <ion-icon class="nav-item" name="notifications-outline"></ion-icon>
+
+    </div>
+
+    <div class="main">
+      <h1>Experience</h1>
+      <form>
+        <label>Experience Type</label>
+        <input type="radio" active />
+        <input type="radio" />
+        <input type="radio" />
+        <input type="radio" />
+        <br>
+
+        <label>Company*</label>
+        <input type="text" name="company" value="" placeholder="what company did you work with" />
+        <br>
+        <label>Role*</label>
+        <input type="text" name="role" value="" placeholder="what company did you work with" />
+        <br>
+
+        <label>Location*</label>
+        <input type="text" name="location" value="" placeholder="what company did you work with" />
+        <input type="text" name="company" value="" placeholder="what company did you work with" />
+        <br>
+
+        <label>Start Date*</label>
+        <input type="text" name="startdate" value="" placeholder="what company did you work with" />
+        <ion-icon name="calendar-outline"></ion-icon>
+
+        <label>End Date*</label>
+        <input type="date" name="enddate" value="" placeholder="what company did you work with" />
+        <ion-icon name="calendar-outline"></ion-icon>
+        <div>
+      </form>
+     <div>
+      <ion-icon size="large" name="add-circle-outline"></ion-icon>
+      <p>Add another experience</p>
+      <ion-icon> name="notifications-outline"></ion-icon>
+    </div>
+
+      <button class=btn type="button">save</button>
+
+    </div>
+
+  </div>
+
+
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+
+</html>
